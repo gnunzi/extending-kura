@@ -1,0 +1,14 @@
+*.class
+*.log
+
+*/target
+target/bundles/*
+
+
+*/META-INF
+*/OSGI-INF
+
+.Dockerfile
+
+.vscode
+

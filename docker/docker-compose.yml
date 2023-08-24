@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  kura:
+    container_name: kuradev
+    image: gnunzi/kuradev:latest
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - 8443:443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
